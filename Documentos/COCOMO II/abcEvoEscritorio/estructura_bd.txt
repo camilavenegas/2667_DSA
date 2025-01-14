@@ -1,0 +1,28 @@
+﻿CREATE TABLE `sales` (
+  `id` int(11) NOT NULL,
+  `idSale` int(11) NOT NULL,
+  `saleDate` datetime NOT NULL,
+  `data` longtext NOT NULL,
+  `invoiceNumber` varchar(100) NOT NULL,
+  `ammount` decimal(10,0) NOT NULL,
+  `idMember` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `sales`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `idSale` (`idSale`);
+
+
+------------------------------------------------------------------------
+
+
+CREATE TABLE `members` (
+  `id` int(11) NOT NULL,
+  `document` varchar(100) DEFAULT NULL,
+  `data` longtext DEFAULT NULL,
+  `idMember` int(11) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+ALTER TABLE `members`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `idMember` (`idMember`);

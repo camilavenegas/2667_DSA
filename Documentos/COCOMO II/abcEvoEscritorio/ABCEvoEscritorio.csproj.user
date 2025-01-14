@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="crudo\Frm_miembros.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_pagos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_pagos_detalles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_clientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_clases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Frm_menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\frm_items.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_itemsEvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_itemsVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_locales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_localesEditar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_members.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_recibidoEvo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_responsables.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_recibidoVer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_tarjetas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_templates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Acceso.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_Principal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Frm_vendedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="crudo\Frm_ventas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Pantallas\Pruebas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

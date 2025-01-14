@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ABCEvoEscritorio</id>
+    <version>1.0.0</version>
+    <authors>ABCEvoEscritorio</authors>
+    <description>Package Description</description>
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0">
+        <dependency id="MySql.Data" version="8.4.0" exclude="Build,Analyzers" />
+        <dependency id="Newtonsoft.Json" version="13.0.3" exclude="Build,Analyzers" />
+        <dependency id="RestSharp" version="110.2.0" exclude="Build,Analyzers" />
+        <dependency id="log4net" version="2.0.17" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+  </metadata>
+  <files>
+    <file src="G:\C\EVO\ABCEvoEscritorio\bin\Debug\net6.0-windows\ABCEvoEscritorio.runtimeconfig.json" target="lib\net6.0-windows7.0\ABCEvoEscritorio.runtimeconfig.json" />
+    <file src="G:\C\EVO\ABCEvoEscritorio\bin\Debug\net6.0-windows\ABCEvoEscritorio.dll" target="lib\net6.0-windows7.0\ABCEvoEscritorio.dll" />
+  </files>
+</package>
